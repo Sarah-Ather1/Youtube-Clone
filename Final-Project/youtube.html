@@ -9,15 +9,18 @@
             } 
             .searchbar {
                 font-size: 18px;
-                margin-left: 12px;
+                display:block;
                 
             }
             .video-title {
                 width: 300px;
 
             }
-            .div-example {
-                display: inline-block;
+            .video-preview {
+                width: 300px;
+                display:inline-block;
+                vertical-align: top;
+                margin-right: 15px;
             }
 
 
@@ -25,6 +28,8 @@
     </head>
     <body>
         <input class="searchbar" type="text" placeholder="Search">
+        
+        <div class="video-preview">
         <img class="picture" src="thumbnails/thumbnail-1.webp">
 
         <p class="video-title">
@@ -36,8 +41,22 @@
         <p class="video-stats">
             3.4M views &#183; 6 months ago
         </p> 
-        <div class="div-example"> 
-            This is a div
+
+        </div>
+
+        <div class="video-preview">
+        <img class="picture" src="thumbnails/thumbnail-2.webp">
+
+        <p class="video-title">
+            Try Not To Laugh Challenge #9
+        </p>
+        <p class="video-author">
+            Markiplier
+        </p>
+        <p class="video-stats">
+            19M views &#183; 4 years ago
+        </p> 
+
         </div>
     </body>
 </html>
