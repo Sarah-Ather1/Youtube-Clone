@@ -82,3 +82,8 @@
                 padding-bottom: 4px;
                 border-radius: 2px;
             }
+            .video-link {
+                text-decoration: none;
+                color: inherit;
+                display: block;
+            }
